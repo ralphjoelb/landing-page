@@ -1,92 +1,186 @@
-* {
-    border: 1px black solid;
-}
 
-body{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
 
-}
-
-.container {
+body {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 80%;
-    height: 100%;
-
+    font-family: sans-serif;
+    margin: 0;
 }
 
-.header{
+.box1 {
+    background-color: rgb(13, 43, 72);
+    color: white;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.header {
+    display: flex;
     justify-content: space-between;
-    width: 100%;
     align-items: center;
+    margin: 0 250px;
+ 
 }
 
-ul {
+ul{
     list-style: none;
     display: flex;
+    margin: 0;
     padding: 0;
     gap: 20px;
 }
 
-.placeholder1{
-    display: flex;
-    align-items: center;
-    height: 30%;
+ul a {
+    text-decoration: none;
+    color: white;
+
 }
 
-.placeholder1 h1{
+.box1-ph{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 250px;
+    padding: 50px 0;
+}
+
+.box1-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.box1-left h1{
     margin-bottom: -10px;
+    margin-top: 0;
 }
 
-.placeholder1 img{
-    width: 50%;
-    text-align: center;
-    vertical-align: middle;
+.box1-left p{
+    font-weight: lighter;
+    font-size: 0.95rem;
 }
 
-.left-text{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    flex-wrap: wrap;
-}
-
-.placeholder1 button{
-    width: 100px;
-}
-
-.placeholder2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.boxes {
-    display: flex;
-}
-
-.placeholder4{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 100%;
-}
-
-.placeholder4 div{
+.img0{
+    flex: 1;
     display:flex;
-    width: 35%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 236, 236, 0.3);
+}
+
+.box1-left button{
+    width: 100px;
+    color: white;
+    background-color: rgb(0, 157, 255);
+    padding: 5px 0;
+    border-radius: 9px;
+}
+
+.box2{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.box2-ph{
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box2ph{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.box2ph p{
+    text-align: center;
+    font-size: 0.7rem
+}
+
+.box2ph .box{
+    border:2px solid rgb(0, 157, 255);
+    height: 100px;
+    width: 100px;
+    border-radius: 9px;
+}
+
+.box3{
+    background-color: rgba(235, 232, 232, 0.872);
+    display: flex;
+    flex-direction: column;
+}
+
+.quote{
+    margin: 80px 280px 0 280px;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 1.4rem;
+    flex: 1;
+}
+
+.author{
+    text-align: right;
+    margin-right: 350px;
+    padding-bottom: 80px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.box4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bluebox{
+    display: flex;
+    background-color: rgb(0, 157, 255);
+    color: white;
+    text-align: left;
+    align-items: center;
+    margin: 50px 0;
+    border: 1px solid rgb(0, 157, 255);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.bbox-left{
+    padding: 10px 50px 0;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 auto;
+    gap: 0;
 }
 
-.placeholder4 button{
-    flex-shrink: 0;
-    margin: 0 auto;
+.bbox-left strong{
+    margin-bottom: -15px;
+}
+
+.bbox-left p{
+    font-weight: lighter;
+}
+
+.bbox-right{
+    padding: 0 50px;
+}
+
+.bbox-right button{
+    background-color: rgb(0, 157, 255);
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 3px 13px;
+}
+
+.box5{
+    background-color: rgb(13, 43, 72);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }
