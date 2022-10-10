@@ -159,11 +159,13 @@ ul a {
 }
 
 .bbox-left strong{
-    margin-bottom: -15px;
+    margin-bottom: -10px;
+    font-size: 1.1rem;
 }
 
 .bbox-left p{
     font-weight: lighter;
+    font-size: 0.8rem
 }
 
 .bbox-right{
@@ -176,6 +178,7 @@ ul a {
     border: 1px solid white;
     border-radius: 8px;
     padding: 3px 13px;
+    font-weight: bold;
 }
 
 .box5{
